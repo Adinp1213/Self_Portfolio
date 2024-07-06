@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'global.css' %}" />
+    <link rel="stylesheet" href="{% static 'index.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kaisei Decol:wght@500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div
+      class="component-1-container"
+      style="
+        position: fixed;
+        z-index: 1000;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 5%;
+      "
+    >
+      <div class="component-1">
+        <a href="/">
+          <div class="fab" style="transform: scale(1.2)">
+            <div class="state-layer">
+              <img
+                class="icon"
+                loading="lazy"
+                alt=""
+                src="{% static 'public/icon11.svg' %}"
+              />
+            </div></div
+        ></a>
+        <a href="/About_me">
+          <div class="fab1">
+            <div class="state-layer1">
+              <img
+                class="icon1"
+                loading="lazy"
+                alt=""
+                src="{% static 'public/icon7.svg' %}"
+              />
+            </div>
+          </div>
+        </a>
+        <a href="/tech_stack">
+          <div class="fab2">
+            <div class="state-layer2">
+              <img
+                class="icon2"
+                loading="lazy"
+                alt=""
+                src="{% static 'public/icon8.svg' %}"
+              />
+            </div>
+          </div>
+        </a>
+        <a href="/projects">
+          <div class="fab3">
+            <div class="state-layer3">
+              <img
+                class="icon3"
+                loading="lazy"
+                alt=""
+                src="{% static 'public/icon9.svg' %}"
+              />
+            </div>
+          </div>
+        </a>
+        <a href="/connect">
+          <div class="fab4">
+            <div class="state-layer4">
+              <img
+                class="icon4"
+                loading="lazy"
+                alt=""
+                src="{% static 'public/icon10.svg' %}"
+              />
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="home" style="padding-left: 20%">
+      <section class="frame-parent">
+        <div class="hello-aditya-here-wrapper">
+          <div class="hello-aditya-here">Hello, Aditya Here !!!</div>
+        </div>
+        <div class="frame-group">
+          <div class="i-am-a-software-developer-and-wrapper">
+            <div class="i-am-a-container">
+              <p class="i-am-a">
+                I am a Software Developer and a Machine Learning Enthusiast.
+              </p>
+            </div>
+          </div>
+          <img
+            class="image-30-icon"
+            loading="lazy"
+            alt=""
+            src="{% static 'public/image-30@2x.png' %}"
+          />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
